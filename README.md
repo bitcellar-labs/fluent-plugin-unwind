@@ -36,7 +36,7 @@ Installation
 Add this line to your application's Gemfile
 
 ```
-gem 'fluent-plugin-rewind'
+gem 'fluent-plugin-unwind'
 ```
 
 Copyright
