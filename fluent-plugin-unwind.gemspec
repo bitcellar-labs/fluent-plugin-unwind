@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.1'
   spec.authors       = ['Sho SAWADA']
   spec.email         = %w(shao@thebitcellar.com)
-  spec.description   = %q{A fluentd plugin that unwind array to multiple items.}
+  spec.description   = %q{fluentd plugin: unwind array to multiple items}
   spec.summary       = %q{A fluentd plugin that unwind array to multiple items.}
   spec.homepage      = 'https://github.com/bitcellar-labs/fluent-plugin-unwind'
   spec.license       = 'MIT'
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.require_paths = %w(lib)
 
-  spec.add_dependency 'fluentd', '~> 0.10.0'
+  spec.add_dependency 'fluentd', '~> 0.10', '>= 0.10.39'
   spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '~> 0.9', '>= 0.9.2'
 end
